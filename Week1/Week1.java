@@ -4,7 +4,7 @@ import java.lang.Math;
 import java.util.Random;
 import java.util.Arrays;
 
-public class Week1_19520113
+public class Week1
 {
     public static void calculatePerimeter(Scanner scan)
     {
