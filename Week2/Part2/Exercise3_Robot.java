@@ -45,7 +45,7 @@ class Pedion extends Robot
 
     public Pedion(Random ran)
     {
-        F = ran.nextInt(5);
+        F = 1 + ran.nextInt(5); // 1 <= f <= 5
     }
 
     @Override
@@ -106,7 +106,7 @@ class Zattacker extends Robot
 
     public Zattacker(Random ran)
     {
-        P = ran.nextInt(30);
+        P = 20 + ran.nextInt(11); // 20 <= P <= 30
     }
 
     @Override
@@ -166,7 +166,7 @@ class Carrier extends Robot
 
     public Carrier(Random ran)
     {
-        E = ran.nextInt(100);
+        E = 50 + ran.nextInt(51); // 50 <= E <= 100
     }
 
     @Override
