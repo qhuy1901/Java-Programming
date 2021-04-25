@@ -110,11 +110,8 @@ public class De1
     {
         for(A sv: ds)
         {
-            if(sv.ten.equals("Le D"))
-            {
-                //System.out.println("Hi");
+            if(sv.ten.equals(Ten))
                 sv.BB.add("Loai A");
-            }
         }
         
     }
