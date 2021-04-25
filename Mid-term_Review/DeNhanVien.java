@@ -1,7 +1,7 @@
 package OnThiGK;
 
 import java.util.ArrayList;
-// Done
+
 abstract class NhanVien 
 {
     public String Ma, TenNV, TenDV;
